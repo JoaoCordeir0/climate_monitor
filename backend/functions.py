@@ -37,7 +37,7 @@ def HTMLtemplate(content):
 #
 # Faz o tratamento das informações que serão exibidas
 #
-def getClime(body):
+def getClimate(body):
     text = str(body.find(class_='-gray -line-height-24 _center'))
 
     icons = str(body.find(class_='col-md-6 col-sm-12 _flex _space-between _margin-t-sm-20')).replace('data-src="/dist/', 'src="https://climatempo.com.br/dist/')    
@@ -53,7 +53,7 @@ def generateIndexHTML():
     with open('frontend/template/index.html', 'w+', encoding='utf8') as file:
         file.write(
             HTMLtemplate(
-                getClime(
+                getClimate(
                     execRequest()
                 )
             )

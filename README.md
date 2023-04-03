@@ -14,4 +14,4 @@ Foi utilizado o conceito de webscraping para coletar as informações do site: h
 
 #
 
-**Esse App foi desenvolvido apenas para estudo e não deve ser utilizado para comercialização**
+**Esse App foi desenvolvido apenas para estudo e não deve ser utilizado para comercialização.**
